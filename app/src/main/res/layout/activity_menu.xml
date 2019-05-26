@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <Button
+        android:id="@+id/menu_actuality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_actuality"
+        android:background="@color/red"
+        />
+
+    <Button
+        android:id="@+id/menu_shops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_shops"
+        android:background="@color/red"
+        />
+
+    <Button
+        android:id="@+id/menu_networks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_networks"
+        android:background="@color/red"
+        />
+
+    <Button
+        android:id="@+id/menu_adds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_adds"
+        android:background="@color/red"
+        />
+
+    <Button
+        android:id="@+id/menu_prefs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_prefs"
+        android:background="@color/red"
+        />
+
+
+</LinearLayout>

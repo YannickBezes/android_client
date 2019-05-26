@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">SmartCity</string>
+    <string name="register">S\'inscrire</string>
+    <string name="login">Se connecter</string>
+    <string name="or">Ou</string>
+    <string name="menu_actuality">Actualités</string>
+    <string name="menu_shops">Commerces</string>
+    <string name="menu_networks">Réseaux</string>
+    <string name="menu_adds">Publicités</string>
+    <string name="menu_prefs">Préférences</string>
+    <string name="welcome_message">Bienvenue sur Smart City, faisons un petit peu connaissance :)</string>
+    <string name="firstname">Prénom :</string>
+    <string name="lastname">Nom :</string>
+    <string name="username">Pseudo :</string>
+    <string name="email">Email :</string>
+    <string name="password">Mot de passe :</string>
+    <string name="gender">Genre :</string>
+    <string name="size">Taille :</string>
+    <string name="weight">Poids :</string>
+    <string name="city">Ville :</string>
+    <string name="interests">Intérêts :</string>
+    <string name="submit">Envoyer</string>
+    <string-array name="genders">
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+    <string name="search">Rechercher</string>
+    <string name="post">Poster</string>
+    <string name="post_message">Écris ton message en-dessous</string>
+    <string name="create_network">Créer un nouveau réseau</string>
+    <string name="network_name">Nom du réseau</string>
+    <string name="cancel">Annuler</string>
+    <string name="publicc">Public</string>
+    <string name="privateNetwork">Ce réseau est privé, seuls les membres peuvent accéder à son contenu</string>
+    <string name="join">Demander à rejoindre</string>
+    <string name="infos_traffic">Infos trafic</string>
+    <string name="weather">Temps</string>
+    <string name="temperature">Temperature</string>
+    <string name="humdity">Humidité</string>
+    <string name="wind">Vent</string>
+    <string name="cloouds">Nuages</string>
+    <string name="from">du</string>
+    <string name="to">au</string>
+    <string name="no_description">Il n\'y a aucune description</string>
+    <string name="events">Évènements à venir</string>
+    <string name="annuaire">Annuaire</string>
+    <string name="proximity">À proximité</string>
+    <string name="fav">Favoris</string>
+    <string name="category">Catégorie :</string>
+    <string name="add_to_fav">Le commerce à bien été ajouté aux favoris</string>
+    <string name="remove_from_fav">Le commerce a été retiré des favoris</string>
+    <string name="prefs_changed">Paramètres modifiés</string>
+    <string name="no_add">Pas de pub trouvée :\'(</string>
+    <string name="no_news">Aucune actualité dans la ville</string>
+</resources>

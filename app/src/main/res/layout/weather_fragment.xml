@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top">
+
+    <TextView
+        android:id="@+id/weather_frag_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/wallet_holo_blue_light"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/weather_frag_meteo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"/>
+
+    <TextView
+        android:id="@+id/weather_frag_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp" />
+
+    <TextView
+        android:id="@+id/weather_frag_humidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"/>
+
+    <TextView
+        android:id="@+id/weather_frag_wind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp" />
+
+    <TextView
+        android:id="@+id/weather_frag_clouds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp" />
+
+</LinearLayout>
