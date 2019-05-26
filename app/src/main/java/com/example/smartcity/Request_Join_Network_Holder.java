@@ -35,7 +35,7 @@ public class Request_Join_Network_Holder extends RecyclerView.ViewHolder {
         accept = itemView.findViewById(R.id.rjn_card_accept);
         reject = itemView.findViewById(R.id.rjn_card_reject);
 
-        if (username.getText().toString().equals("Il n'y a aucune demande"));
+        if (username.getText().toString().equals("Il n'y a aucune demande"))
         {
             accept.setVisibility(itemView.INVISIBLE);
             reject.setVisibility(itemView.INVISIBLE);
